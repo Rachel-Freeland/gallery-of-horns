@@ -8,12 +8,12 @@ import HornedBeast from './HornedBeast.js';
 class App extends React.Component {
   render() {
     return (
-      <div>
+      <>
         <Header />
         <Main />
         <HornedBeast />
         <Footer />
-      </div>
+      </>
     );
   }
 }

@@ -1,11 +1,12 @@
 import React from 'react';
+import './footer.css';
 
 class Footer extends React.Component {
   render() {
     return(
-      <div>
-        <p>Author: Rachel Freeland</p>
-      </div>
+      <>
+        <p><span>Author:</span> Rachel Freeland</p>
+      </>
     );
   }
 }
