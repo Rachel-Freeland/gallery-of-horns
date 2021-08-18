@@ -1,7 +1,54 @@
-.App {
+ html body {
+  background-color: rgb(250, 224, 202);
+  margin: 1.5rem;
+}
+
+h1 {
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 800;
+}
+
+#container {
+  display: inline-flexbox;
+  flex-flow: row;
+  flex-direction: row;
+
+}
+
+#card {
+  background-color: aliceblue;
+  border: 0.75rem darkblue outset;
+  font-size: 1.125rem;
+  margin-bottom: 1.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1.5rem;
+  max-width: 32%;
+  padding: 0.5rem;
+}
+
+#cardImg {
+  margin: auto;
+  max-width: 90%;
+  padding: 0.5rem;
+}
+
+#cardTitle {
+  font-family: cursive;
+  font-size: 1.5rem;
+  font-weight: bold;
   text-align: center;
 }
 
-img {
-  max-width: 50%;
+#cardBody {
+  background-color: aliceblue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: left;
 }
+
+#cardFooter {
+  background-color: paleturquoise;
+  margin: auto;
+}
+

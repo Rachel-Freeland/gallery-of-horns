@@ -7,13 +7,11 @@ class Main extends React.Component {
     return(
       <>
         {data.map( (beast, i) => {
-          return <HornedBeast
-            key={i}
-            imgUrl ={beast.image_url}
-            title={beast.title}
-            description={beast.description}
-            keyword={beast.keyword}
-            horns={beast.horns} />;
+          return (
+            <>
+              <HornedBeast key={i} imgUrl ={beast.image_url} title={beast.title} description={beast.description} keyword={beast.keyword} horns={beast.horns} />
+            </>
+          );
         })
         }
       </>
