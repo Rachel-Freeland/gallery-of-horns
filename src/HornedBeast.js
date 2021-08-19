@@ -1,6 +1,6 @@
 import React from 'react';
-import { CardColumns } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
+import CardColumns from 'react-bootstrap/CardColumns';
 import './App.css';
 
 class HornedBeast extends React.Component {
@@ -13,6 +13,10 @@ class HornedBeast extends React.Component {
     };
   }
 
+  showModal = () => {
+    this.props.showModal(this.props.beast.key);
+  }
+
   handleClick = () => {
     this.setState({
       votes: this.state.votes + 1
@@ -23,8 +27,10 @@ class HornedBeast extends React.Component {
   render() {
     return(
       <CardColumns id="beasts">
-        <Card id="card" style={{ width: '30rem' }} onClick={this.handleClick} key={this.props.key}>
-          <Card.Img id="cardImg" variant="top" src={this.props.imgUrl} alt={this.props.title} />
+        <Card id="card" style={{ width: '20vw' }} onClick={this.handleClick} key={this.props.key}>
+          <Card.Header id="cardHeader" style={{width: '18vw'}}>
+            <Card.Img id="cardImg" variant="top" src={this.props.imgUrl} alt={this.props.title} style={{width: '16vw'}} />
+          </Card.Header>
           <Card.Body>
             <Card.Title id="cardTitle">{this.props.title}</Card.Title>
             <Card.Text id="cardText">
