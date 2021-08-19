@@ -1,43 +1,39 @@
  html body {
   background-color: rgb(250, 224, 202);
-  margin: 1.5rem;
+  margin: 3rem;
 }
 
 h1 {
   text-align: center;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-weight: 800;
+  font-family: cursive;
 }
 
-#container {
-  display: inline-flexbox;
-  flex-flow: row;
-  flex-direction: row;
-
+#beasts {
+  display: inline-flex;
 }
 
 #card {
   background-color: aliceblue;
-  border: 0.75rem darkblue outset;
-  font-size: 1.125rem;
+  border: 1rem darkblue outset;
+  flex-direction: column;
   margin-bottom: 1.5rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
   margin-top: 1.5rem;
-  max-width: 32%;
   padding: 0.5rem;
 }
 
 #cardImg {
   margin: auto;
-  max-width: 90%;
-  padding: 0.5rem;
+  max-width: 100%;
+  padding: 0.75rem;
 }
 
 #cardTitle {
-  font-family: cursive;
-  font-size: 1.5rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 2.25rem;
   font-weight: bold;
+  min-height: 3rem;
   text-align: center;
 }
 
@@ -47,8 +43,16 @@ h1 {
   text-align: left;
 }
 
+#cardText {
+  font-size: 1.75rem;
+}
+
 #cardFooter {
+  justify-content: space-evenly;
   background-color: paleturquoise;
-  margin: auto;
+  display: inline-flex;
+  font-size: 2rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
