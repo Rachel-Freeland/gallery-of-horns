@@ -18,38 +18,42 @@ This app will display a gllery of horned beasts for your viewing pleasure.
 
 ## TIME ESTIMATES FOR FEATURES:
 
+`------------------------------August 17, 2021-----------------------------`
+
 Number and name of feature: `#1 - Display images`
 
 Estimate of time needed to complete: `20 minutes`
 
-Start time: `forgot to add start time`
-
-Finish time: `forgot to add stop time`
-
 Actual time needed to complete: `about 30 minutes`
 
-----------------------------------------------------------------------------
+`--------------------------------------------------------------------------`
 
 Number and name of feature: `#2 - Allow users to vote for their favorite beasts`
 
 Estimate of time needed to complete: `20 minutes`
 
-Start time: `?`
-
-Finish time: `?`
-
 Actual time needed to complete: `20 minutes`
 
--------------------------------------------------------------------------------
+`--------------------------------------------------------------------------`
 
 Number and name of feature: `#3 - Bootstrap`
 
 Estimate of time needed to complete: `1 hour`
 
-Start time: _____
+Actual time needed to complete: `2 hours`
 
-Finish time: _____
+`------------------------------August 18, 2021-----------------------------`
 
-Actual time needed to complete: _____
+Number and name of feature: `#1 - Display Modal`
 
--------------------------------------------------------------------------------
+Estimate of time needed to complete: `1 hour`
+
+Actual time needed to complete: ``
+
+`------------------------------August 19, 2021-----------------------------`
+
+Number and name of feature: `#1 - Filter By Number Of Horns`
+
+Estimate of time needed to complete: `2 hours`
+
+Actual time needed to complete: `3 hours`

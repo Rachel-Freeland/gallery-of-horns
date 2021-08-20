@@ -1,39 +1,43 @@
  html body {
   background-color: rgb(250, 224, 202);
-  margin: 3rem;
+  margin-left: 2vw;
+  margin-top: 1.5vw;
 }
 
 h1 {
-  text-align: center;
   font-family: cursive;
+  text-align: center;
 }
 
 #beasts {
   display: inline-flex;
+  margin: 0.125vw;
 }
 
 #card {
   background-color: aliceblue;
   border: 1rem darkblue outset;
   flex-direction: column;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   margin-left: 3rem;
   margin-right: 3rem;
   margin-top: 1.5rem;
   padding: 0.5rem;
 }
 
+#cardHeader {
+  margin: auto;
+}
+
 #cardImg {
   margin: auto;
   max-width: 100%;
-  padding: 0.75rem;
 }
 
 #cardTitle {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 2.25rem;
   font-weight: bold;
-  min-height: 3rem;
   text-align: center;
 }
 
@@ -56,3 +60,36 @@ h1 {
   margin-right: 1.5rem;
 }
 
+#modalBody {
+  color: navy;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: auto;
+  text-align: center;
+}
+
+#modalBody span {
+  color: navy;
+  font-size: 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 700;
+  text-shadow: 0.125rem 0.125rem whitesmoke;
+}
+
+#modalCard {
+  background-color: lightsteelblue;
+}
+
+#modalFooter {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: auto;
+}
+
+#modalImg {
+  margin: auto;
+  max-width: 100%;
+  padding-top: 0.5rem;
+}
+
+#vote {
+  margin-top: 1rem;
+}
