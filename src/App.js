@@ -15,15 +15,15 @@ class App extends React.Component {
       clickedBeast: {}
     };
   }
-
   showModal = (key) => {
     this.setState({
       showModal: true,
-      clickedBeast: this.state.beast[key]
+      clickedBeast: this.state.beasts[key]
     });
   };
 
-  onClose = () => {
+  closeModal = () => {
+    console.log('YAY!');
     this.setState({
       showModal: false
     });
@@ -35,8 +35,8 @@ class App extends React.Component {
     return (
       <>
         <Header />
+        <SelectedBeast showModal={this.state.showModal} closeModal={this.closeModal} beast={this.state.clickedBeast} />
         <Main beastData={this.state.beasts} showModal={this.showModal} />
-        <SelectedBeast show={this.showModal} onClose={this.onClose} beast={this.state.beasts} />
         <Footer />
       </>
     );
