@@ -24,10 +24,6 @@ Number and name of feature: `#1 - Display images`
 
 Estimate of time needed to complete: `20 minutes`
 
-Start time: `forgot to add start time`
-
-Finish time: `forgot to add stop time`
-
 Actual time needed to complete: `about 30 minutes`
 
 `--------------------------------------------------------------------------`
@@ -35,10 +31,6 @@ Actual time needed to complete: `about 30 minutes`
 Number and name of feature: `#2 - Allow users to vote for their favorite beasts`
 
 Estimate of time needed to complete: `20 minutes`
-
-Start time: `?`
-
-Finish time: `?`
 
 Actual time needed to complete: `20 minutes`
 
@@ -48,10 +40,6 @@ Number and name of feature: `#3 - Bootstrap`
 
 Estimate of time needed to complete: `1 hour`
 
-Start time: `?`
-
-Finish time: `?`
-
 Actual time needed to complete: `2 hours`
 
 `------------------------------August 18, 2021-----------------------------`
@@ -60,20 +48,12 @@ Number and name of feature: `#1 - Display Modal`
 
 Estimate of time needed to complete: `1 hour`
 
-Start time: ``
-
-Finish time: ``
-
 Actual time needed to complete: ``
 
 `------------------------------August 19, 2021-----------------------------`
 
-Number and name of feature: `#`
+Number and name of feature: `#1 - Filter By Number Of Horns`
 
-Estimate of time needed to complete: ``
+Estimate of time needed to complete: `2 hours`
 
-Start time: ``
-
-Finish time: ``
-
-Actual time needed to complete: ``
+Actual time needed to complete: `3 hours`
